@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"微軟正黑體";
+	font-size:16px;
+	background-color:rgba(237, 223, 147, 0.674);;
+
+}
+.main{
+	padding:8px;
+	margin:0 auto;
+	position:relative;
+	width:90%;
+	top:100px;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	border-radius:8px;
+	box-shadow:0 0 20px 0 rgba(0,0,0,0.5);
+}
+#article {
+	border: 1px solid black ;
+	box-shadow:0 0 2px 1px rgba(237, 223, 147, 0.674);
+}
+table{
+	border-collapse:collapse;
+	width:90%;
+	margin:0 auto;
+}
+tr:nth:child{
+	background-color:#CCC;
+}
+th{	
+	color:#fff;
+	background-color:#793D00;
+}
+th,td{
+	text-align:left;
+	padding:4px;
+}
+img:hover,input:hover{
+	box-shadow:0 0 2px 1px rgba(237, 223, 147, 0.674);;
+}
+[type=submit],[type=reset],[type=button]
+{
+	border:none;
+	padding:8px;
+	margin:8px;
+	background-color:#1AA26F;
+	color:white;
+	font-size:16px;
+	font-family:"微軟正黑體";
+	border-radius:8px;
+}
+[type=password],[type=text],textarea{
+	border:1px solid #CCC;
+	border-radius:4px;
+}
+.nine-block-container {
+	width: 100%;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.nine-block {
+	width: 32%;
+	height: 200px;
+	margin: 1px ;
+	border: 1px solid red;
+}
+.nine-block:hover {
+	background-color: aquamarine;
+	cursor: pointer;
+}
+.nine-block.check {
+	background-color: rgb(250, 220, 84);
+}
+
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+  

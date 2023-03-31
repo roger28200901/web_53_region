@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"微軟正黑體";
+	font-size:16px;
+	background-color:rgba(237, 223, 147, 0.674);;
+
+}
+.main{
+	padding:8px;
+	margin:0 auto;
+	position:relative;
+	width:50%;
+	top:100px;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	border-radius:8px;
+	box-shadow:0 0 20px 0 rgba(0,0,0,0.5);
+}
+table{
+	border-collapse:collapse;
+	width:90%;
+	margin:0 auto;
+}
+tr:nth:child{
+	background-color:#CCC;
+}
+th{	
+	color:#fff;
+	background-color:#793D00;
+}
+th,td{
+	text-align:left;
+	padding:4px;
+}
+img:hover,input:hover{
+	box-shadow:0 0 2px 1px rgba(237, 223, 147, 0.674);;
+}
+[type=submit],[type=reset],[type=button]
+{
+	border:none;
+	padding:8px;
+	margin:8px;
+	background-color:#1AA26F;
+	color:white;
+	font-size:16px;
+	font-family:"微軟正黑體";
+	border-radius:8px;
+}
+[type=password],[type=text],textarea{
+	border:1px solid #CCC;
+	border-radius:4px;
+}
